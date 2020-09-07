@@ -1,0 +1,4 @@
+{
+	"rule": "Do not trap a player so that they could never escape by themselves (portal traps, bed traps, etc.).",
+	"reason": ""
+}

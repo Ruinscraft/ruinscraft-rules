@@ -1,0 +1,4 @@
+{
+	"rule": "Towns and Nation names shouldn't be so similar to another Town or Nation that someone could be confused between them (\"Britain\" vs. \"GreatBritain\").",
+	"reason": ""
+}
