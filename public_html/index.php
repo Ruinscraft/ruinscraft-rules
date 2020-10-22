@@ -9,16 +9,26 @@
 </head>
     <body>
           <?php
-            foreach (scandir("./rules") as $ruleDir) {
+
+            $service = $_GET["service"];
+
+            if ($service === NULL) {
+                echo "<h2>No service specified</h2>";
+                return;
+            }
+
+            $serviceDir = "./rules/" . $service . "/";
+
+            foreach (scandir($serviceDir) as $ruleDir) {
                 if ($ruleDir[0] == '.') {
                     continue;
                 }
 
-                if (!is_dir("./rules/" . $ruleDir)) {
+                if (!is_dir($serviceDir . $ruleDir)) {
                     continue;
                 }
 
-                $_categoryFile = "./rules/" . $ruleDir . "/_category.json";
+                $_categoryFile = $serviceDir . $ruleDir . "/_category.json";
 
                 if (!file_exists($_categoryFile)) {
                     continue;
@@ -28,12 +38,12 @@
 
                 echo "<h2>" . $_category['title'] . "</h2>";
 
-                foreach (scandir("./rules/" . $ruleDir) as $ruleFile) {
+                foreach (scandir($serviceDir . $ruleDir) as $ruleFile) {
                     if ($ruleFile[0] == '.') {
                         continue;
                     }
 
-                    if (!is_file("./rules/" . $ruleDir . "/" . $ruleFile)) {
+                    if (!is_file($serviceDir . $ruleDir . "/" . $ruleFile)) {
                         continue;
                     }
 
@@ -41,7 +51,7 @@
                         continue;
                     }
 
-                    $rule = json_decode(file_get_contents("./rules/" . $ruleDir . "/" . $ruleFile), true);
+                    $rule = json_decode(file_get_contents($serviceDir . $ruleDir . "/" . $ruleFile), true);
 
                     echo "
                         <button type=\"button\" class=\"collapsible\">" . $rule['rule'] . "</button>
