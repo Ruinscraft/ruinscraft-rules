@@ -1,3 +1,7 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
 .collapsible {
     background-color: #eee;
     color: #444;
