@@ -2,29 +2,24 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
-.collapsible {
-    background-color: rgb(255, 255, 255);
-    color: rgb(37, 37, 37);
-    cursor: pointer;
-    padding: 18px;
+.rule {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+}
+
+.rule-header {
+    background-color: #e9a85f;
+    padding: 10px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-top: 20px;
-    font-size: large;
+    font-size: larger;
+    margin: 0px;
 }
 
-.active, .collapsible:hover {
-    background-color: #eba04b;
-}
-
-.content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
+.rule-content {
     background-color: #f1f1f1;
+    padding: 10px;
+    margin: 0px;
 }

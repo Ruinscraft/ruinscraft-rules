@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
-    <script defer src="/main.js"></script>
     <title>Ruinscraft Rules</title>
 </head>
     <body>
@@ -37,7 +36,7 @@
 
                 $_category = json_decode(file_get_contents($_categoryFile), true);
 
-                echo "<h2>" . $_category['title'] . "</h2>";
+                echo "<h1>" . $_category['title'] . "</h1>";
 
                 foreach (scandir($serviceDir . $ruleDir) as $ruleFile) {
                     if ($ruleFile[0] == '.') {
@@ -54,11 +53,12 @@
 
                     $rule = json_decode(file_get_contents($serviceDir . $ruleDir . "/" . $ruleFile), true);
 
-                    echo "
-                        <button type=\"button\" class=\"collapsible\">" . $rule['rule'] . "</button>
-                        <div class=\"content\">
-                            <p>" . $rule['reason'] . "</p>
-                        </div>
+                    echo
+                    "
+                    <div class=\"rule\">
+                        <p class=\"rule-header\"> " . $rule['rule'] . " </p>
+                        <p class=\"rule-content\"> " . $rule['reason'] . " </p>
+                    </div>
                     ";
                 }
             }
