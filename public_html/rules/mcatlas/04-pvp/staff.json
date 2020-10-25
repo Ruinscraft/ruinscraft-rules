@@ -1,4 +1,4 @@
 {
 	"rule": "If a staff member is performing staff duties, do not attack them.",
-	"reason": "If staff are attacked while on duty it hinders their ability to preform their task properly."
+	"reason": "If staff are attacked while on duty it hinders their ability to perform tasks. An example of this is a staff member checking out a grief and a player attempts to kill them."
 }

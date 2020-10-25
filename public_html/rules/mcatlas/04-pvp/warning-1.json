@@ -1,4 +1,4 @@
 {
-	"rule": "Towns must give at least a 15 second warning to nearby users before enabling PvP.",
-	"reason": ""
+	"rule": "Towns must give at least a 15 second warning to all nearby users before enabling PvP.",
+	"reason": "This warning gives time for players to leave if they did not expect or want to PvP."
 }

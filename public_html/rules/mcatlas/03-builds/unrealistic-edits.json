@@ -1,4 +1,4 @@
 {
-	"rule": "Do not build unrealistic structures (sky islands, floating Towns, underwater cities, etc).",
-	"reason": ""
+	"rule": "Do not build unrealistic structures (sky islands, floating Towns, underwater cities, etc). This includes artificial islands.",
+	"reason": "We want to keep our server realistic. Building things that wouldn't be possible in real life does not create a realistic setting. While artificial islands are not allowed, real structures such as ships and oil rigs are allowed."
 }

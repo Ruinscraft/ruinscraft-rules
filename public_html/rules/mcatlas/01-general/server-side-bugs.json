@@ -1,4 +1,4 @@
 {
 	"rule": "Do not exploit any server-side bugs.",
-	"reason": "These bugs are typically harmful to the server, give you an advatance over other players, or both. In order to keep things fun and fair for all players we do not allow this. If you discover a bug please report it!"
+	"reason": "These bugs are typically harmful to the server, give you an advantage over other players, or both. In order to keep things fun and fair for all players we do not allow this. If you discover a bug please report it!"
 }

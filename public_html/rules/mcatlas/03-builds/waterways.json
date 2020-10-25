@@ -1,4 +1,4 @@
 {
-	"rule": "Do not block waterways. You may build bridges; at least a 2 block gap between the surface of the water and the bottom of the bridge must be left so boats may easily pass underneath.",
-	"reason": ""
+	"rule": "Do not block waterways. You may build bridges; at least a 2 block gap between the surface of the water and the bottom of the bridge must be left so boats may pass underneath.",
+	"reason": "Allowing travel throughout the world and keeping the server realistic are two major priorities. Blocking off waterways prevents natural travel by boat and is not realistic. You are allowed to reroute rivers to an extent."
 }
