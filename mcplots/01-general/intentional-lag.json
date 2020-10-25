@@ -1,0 +1,4 @@
+{
+	"rule": "Do not attempt to create lag on our Minecraft server.",
+	"reason": "Lag creates an unplayable experience for everyone."
+}
