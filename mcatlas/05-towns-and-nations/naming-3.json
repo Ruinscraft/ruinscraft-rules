@@ -1,4 +1,4 @@
 {
-	"rule": "Towns and Nation names shouldn't be so similar to another Town or Nation that someone could be confused between them (\"Britain\" vs. \"Britian\").",
+	"rule": "Towns and Nation names shouldn't be so similar to another Town or Nation that someone could be confused between them (\"Brit ai n\" vs. \"Brit ia n\").",
 	"reason": "Names should be unique instead of copying another already existing name."
 }
