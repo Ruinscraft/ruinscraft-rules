@@ -1,0 +1,4 @@
+{
+	"rule": "Avoid \"spamposting\".",
+	"reason": "Spamposting can mean creating a thread with no relevancy or topic or replying to an existing thread with no relavancy or topic. This creates an undesirable experience for users of the forum."
+}
