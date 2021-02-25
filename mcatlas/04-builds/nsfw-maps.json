@@ -1,0 +1,4 @@
+{
+	"rule": "Do not create NSFW map art (such as nudity or gore).",
+	"reason": "Players should be able to opt-out of NSFW content (such as in chat). There is no feasible way for us to censor NSFW map art."
+}
