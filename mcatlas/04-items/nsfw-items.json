@@ -1,0 +1,4 @@
+{
+	"rule": "Do not create or distribute NSFW items (that contain subjects such as nudity or gore).",
+	"reason": "Players should be able to opt-out of NSFW content. There is no feasible way for us to censor NSFW items (such as maps/heads/etc)."
+}
