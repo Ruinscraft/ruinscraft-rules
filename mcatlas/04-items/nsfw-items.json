@@ -1,4 +1,4 @@
 {
-	"rule": "Do not create or distribute NSFW items (that contain subjects such as nudity or gore) or name items inappopriately.",
-	"reason": "Players should be able to opt-out of NSFW and inappropritae content. There is no feasible way for us to censor NSFW items (such as weapons/maps/heads/etc)."
+	"rule": "Do not create or distribute NSFW items (that contain subjects such as nudity or gore) or name items inappropriately.",
+	"reason": "Players should be able to opt-out of NSFW and inappropriate content. There is no feasible way for us to censor NSFW items (such as weapons/maps/heads/etc)."
 }
