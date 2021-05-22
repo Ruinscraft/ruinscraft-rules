@@ -1,0 +1,4 @@
+{
+	"rule": "Do not have PVP enabled in your Town homeblock unless PVP is enabled in the entire Town.",
+	"reason": "It should be obvious that an area has PVP enabled before teleporting there."
+}
