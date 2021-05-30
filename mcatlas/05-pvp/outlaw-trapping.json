@@ -1,0 +1,4 @@
+{
+	"rule": "Do not make someone an outlaw if they are currently trapped in that Town.",
+	"reason": "Because outlawed players can't teleport away, this would be unfair to the outlawed player."
+}
