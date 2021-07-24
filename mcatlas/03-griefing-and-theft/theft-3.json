@@ -1,4 +1,4 @@
 {
-	"rule": "Theft of items by killing a player not properly warned of PvP is not allowed.",
-	"reason": "Killing a player not properly warned (see the definition of a fair warning in the PvP rules) is not allowed to begin with."
+	"rule": "Do not steal items by killing a player in an area where PvP is not allowed.",
+	"reason": "Killing a player in a non-PvP area is not allowed to begin with. Read the PvP section for more info."
 }
